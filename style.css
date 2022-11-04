@@ -1,0 +1,228 @@
+/*Author:Archana P Nair*/
+/* Date : 04/11/2022 */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Header */
+header{
+    background-color: crimson;
+    height:5rem;
+}
+.navigation{
+    float: right;
+    margin-top:30px;
+    margin-right:80px;
+    
+}
+.navigation a{
+    text-decoration: none;
+    color: white;
+    padding:10px;
+    margin-right:7px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size:18px;
+}
+#logo{
+    margin-left:50px;
+    margin-top:12px;
+}
+.navigation a:hover{
+    background-color:beige;
+    color: black;
+    transition:0.5 ease-in-out;
+}
+
+/* Aside start */
+aside
+{
+    background-image: url(images/bgk.jpeg);
+    height: 100vh;
+    color:white;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.content
+{
+    float: left;
+    margin:220px;
+}
+#text-1
+{
+    font-size:20px;
+    font-weight:400;
+
+}
+#text-2{
+font-size:30px;
+font-weight: 600;
+margin-left: -3px;
+}
+#text-3
+{
+font-size:25px;
+font-weight:400;
+
+}
+/*Aside end/*
+/* About */
+.aboutdet{
+margin-left:400px;
+margin-top:12px;
+width:25rem;
+background-color:none;
+text-align: justify;
+font-size:20px;
+padding:30px;
+font-family:Arial, Helvetica, sans-serif;
+
+}
+#title{
+font-size:40px;
+color: crimson;
+margin-top:70px;
+margin-left:450px;
+text-decoration:underline;
+font-family:Arial, Helvetica, sans-serif;
+
+}
+#text
+{
+font-size: 25px;
+font-weight: 600;
+}
+/* Education */
+.education
+{
+    background-color: crimson;
+    height:23rem;
+    padding:10px;
+    padding:30px;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+#titles{
+    font-size:40px;
+    color:white;
+    margin-left:450px;
+    text-decoration: underline;
+    font-family:Arial, Helvetica, sans-serif;
+
+ }
+ .p-box{
+    float:left;
+    border:1px solid white;
+    width:25%;
+    height:10rem;
+    margin-left:42px;
+    text-align: justify;
+    margin-top: 30px;
+    padding:15px;
+    background-color: black;
+    color:white;
+    font-size:15px;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 2em;
+
+}
+.p-box h4{
+    text-align: center;
+}
+/* Skills */
+.skilldet{
+margin-left:400px;
+margin-top:15px;
+width:25rem;
+background-color:none;
+text-align: justify;
+font-size:20px;
+padding:30px;
+}
+.skilldet span {
+  content: "\2192";
+  font-weight: 600;
+  color:black;
+  line-height:2em;
+  font-family:Arial, Helvetica, sans-serif;
+
+}
+/* Experiences*/
+.experience{
+    background-color:crimson;
+    height: 23rem;
+    padding: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+.list{
+    background-color: white;
+    height:8rem;
+    margin-top:80px;
+    font-weight:300;
+    width:40%;
+    margin-left:300px;
+    padding:30px;
+    line-height:2em;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+/* Contact */
+.contact{
+    color:black;
+    margin: 100px;
+    float: left; 
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+.contact h3{
+    padding:20px;
+}
+/* Form */
+form{
+    float:right;
+    background-color:burlywood;
+    margin-top:40px;
+    margin-right:20px;
+    height:20em;
+    padding: 25px;
+    width: 25%;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+form label{
+    color:white;
+}
+form h2{
+    text-align: center;
+    color:white;
+}
+form button{
+    background-color: dodgerblue;
+    color:white;
+    width: 100%;
+    border:none;
+    padding:2px;
+}
+form p{
+    font-weight: bold;
+}
+/* Footer */
+footer{
+    background-color: black;
+    color:white;
+    height:2.5em;
+    text-align: center;
+    border:2px solid;
+    margin-top:31%;
+    padding:10px;
+    line-height:1.5em;
+    font-size: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
